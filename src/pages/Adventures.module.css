@@ -1,0 +1,22 @@
+.adventures{
+    background-image: url("../assets/Homebg.jpg");
+    background-size: cover;
+    background-position: center;
+    >div{
+        width: var(--container-max-width);
+        margin: auto;
+        height: calc(100vh - 3rem);
+
+        >div>div{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+
+            img{
+                width: 100%;
+                aspect-ratio: 1 / 1;
+                object-fit: cover;
+            }
+        }
+    }
+}

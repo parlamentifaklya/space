@@ -1,0 +1,24 @@
+.navbar{
+    width: 100%;
+    background: rgb(6, 0, 49);
+    color: aliceblue;
+
+    >div{
+        max-width: var(--container-max-width);
+        margin: auto;
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 1.2rem;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+}
